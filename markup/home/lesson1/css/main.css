@@ -1,31 +1,47 @@
+/***VARIABLES***/
+/***VARIABLES***/
+/***TAGS**/
+/* line 5, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 body {
-    font:100% Helvetica
-}
+  font: 100% Helvetica; }
+
+/* line 8, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 a {
-    text-decoration:none
-}
-p,li,a {
-    font-size:16px
-}
+  text-decoration: none; }
+
+/* line 11, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
+p, li, a {
+  font-size: 16px; }
+
+/***TAGS***/
+/* line 15, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 .wrap {
-    padding:5%
-}
+  width: 960px;
+  margin: 5% auto; }
+
+/* line 19, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 .header {
-    text-align:center
-}
+  text-align: center; }
+
+/* line 22, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 .header_img {
-    width:275px;
-    height:240px
-}
+  width: 275px;
+  height: 240px; }
+
+/* line 26, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 .content__phone {
-    margin:0 0 3em
-}
+  margin: 0 0 3em 0; }
+
+/* line 29, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 .content__fb {
-    color:rebeccapurple
-}
+  color: rebeccapurple; }
+
+/* line 32, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
 .content_info {
-    padding-bottom:10px
-}
-.content_dscrptn,.content_info,.header {
-    border-bottom:1px solid silver
-}
+  padding-bottom: 10px; }
+
+/* line 35, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson1/css/main.scss */
+.content_dscrptn, .content_info, .header {
+  border-bottom: 1px solid #c0c0c0; }
+
+/*# sourceMappingURL=main.css.map */
