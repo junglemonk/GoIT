@@ -1,0 +1,55 @@
+/***IMPORT***/
+@import 'reset';
+
+/***VARIABLES***/
+$font: Tahoma;
+
+/***TAGS***/
+body {
+    font-family: $font;
+}
+/***FOOTER***/
+/***BACKGROUND***/
+.background_row1 {
+    height: 150px;
+    border-top: 20px solid #1D76B5;
+    background-color: aliceblue;
+}
+
+.background_row2 {
+    height: 850px;
+    background: #06538A;
+}
+/***WRAPPER***/
+.wrapper {
+    width: 1000px;
+    height: 991px;
+    position: absolute;
+    left: 50%;
+    margin-left: -510px;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 5px 5px #ccc;
+    -webkit-box-shadow: 0 0 5px 5px #ccc;
+    box-shadow: 0 0 5px 5px #ccc;
+}
+/***HEADER***/
+.header {
+    height: 160px;
+    padding: 10px 20px 0 20px;
+}
+
+.header_logo {
+    width: 283px;
+    height: 164px;
+    float: left;
+    background: url('../img/logo.png');
+}
+
+.header_contacts {
+    float: right;
+    color: rgba(18, 138, 167, 0.8);    
+    list-style: none;
+    li {
+        margin-bottom: 5px;
+    }
+}

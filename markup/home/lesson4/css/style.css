@@ -1,0 +1,106 @@
+/***IMPORT***/
+/* line 13, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 26, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 29, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 32, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 36, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 40, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/***VARIABLES***/
+/***TAGS***/
+/* line 8, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+body {
+  font-family: Tahoma; }
+
+/***FOOTER***/
+/***BACKGROUND***/
+/* line 13, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+.background_row1 {
+  height: 150px;
+  border-top: 20px solid #1D76B5;
+  background-color: aliceblue; }
+
+/* line 19, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+.background_row2 {
+  height: 850px;
+  background: #06538A; }
+
+/***WRAPPER***/
+/* line 24, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+.wrapper {
+  width: 1000px;
+  height: 991px;
+  position: absolute;
+  left: 50%;
+  margin-left: -510px;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 5px 5px #ccc;
+  -webkit-box-shadow: 0 0 5px 5px #ccc;
+  box-shadow: 0 0 5px 5px #ccc; }
+
+/***HEADER***/
+/* line 36, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+.header {
+  height: 160px;
+  padding: 10px 20px 0 20px; }
+
+/* line 41, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+.header_logo {
+  width: 283px;
+  height: 164px;
+  float: left;
+  background: url("../img/logo.png"); }
+
+/* line 48, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+.header_contacts {
+  float: right;
+  color: rgba(18, 138, 167, 0.8);
+  list-style: none; }
+  /* line 52, C:/Users/junglemonk/Documents/GitHub/GoIT/markup/home/lesson4/css/style.scss */
+  .header_contacts li {
+    margin-bottom: 5px; }
+
+/*# sourceMappingURL=style.css.map */
