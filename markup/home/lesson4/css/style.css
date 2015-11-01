@@ -1,0 +1,267 @@
+/***IMPORT***/
+/* line 13, E:/PSD/lesson4/css/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, E:/PSD/lesson4/css/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 26, E:/PSD/lesson4/css/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 29, E:/PSD/lesson4/css/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 32, E:/PSD/lesson4/css/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 36, E:/PSD/lesson4/css/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 40, E:/PSD/lesson4/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/***VARIABLES***/
+/***TAGS***/
+/* line 8, E:/PSD/lesson4/css/style.scss */
+body {
+  font-family: Tahoma; }
+
+/***FOOTER***/
+/***BACKGROUND***/
+/* line 13, E:/PSD/lesson4/css/style.scss */
+.background_row1 {
+  height: 150px;
+  border-top: 20px solid #1D76B5;
+  background-color: aliceblue; }
+
+/* line 19, E:/PSD/lesson4/css/style.scss */
+.background_row2 {
+  background: #06538A; }
+
+/***WRAPPER***/
+/* line 25, E:/PSD/lesson4/css/style.scss */
+.wrapper {
+  width: 1000px;
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  margin-left: -510px;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 5px 5px #ccc;
+  -webkit-box-shadow: 0 0 5px 5px #ccc;
+  box-shadow: 0 0 5px 5px #ccc; }
+
+/***HEADER***/
+/* line 38, E:/PSD/lesson4/css/style.scss */
+.header {
+  position: relative;
+  height: 160px;
+  padding: 10px 20px 0 20px; }
+
+/* line 44, E:/PSD/lesson4/css/style.scss */
+.header_logo {
+  width: 283px;
+  height: 164px;
+  float: left;
+  background: url("../img/logo.png"); }
+
+/* line 51, E:/PSD/lesson4/css/style.scss */
+.header_contacts {
+  float: right;
+  color: rgba(18, 138, 167, 0.8);
+  list-style: none;
+  font-size: 12px; }
+  /* line 56, E:/PSD/lesson4/css/style.scss */
+  .header_contacts li {
+    margin-bottom: 5px; }
+  /* line 59, E:/PSD/lesson4/css/style.scss */
+  .header_contacts li:first-child {
+    font-size: 14px;
+    font-weight: 800; }
+
+/* line 65, E:/PSD/lesson4/css/style.scss */
+.header_country {
+  bottom: 10px;
+  right: 20px;
+  position: absolute;
+  list-style: none; }
+  /* line 70, E:/PSD/lesson4/css/style.scss */
+  .header_country li {
+    display: inline-block; }
+  /* line 73, E:/PSD/lesson4/css/style.scss */
+  .header_country a {
+    padding: 55px 10px 0 7px;
+    font-size: 10px;
+    color: #128aa7; }
+
+/* line 80, E:/PSD/lesson4/css/style.scss */
+.header_country_india {
+  background: url("../img/ind_flag.png") no-repeat center center;
+  margin-right: 15px; }
+
+/* line 85, E:/PSD/lesson4/css/style.scss */
+.header_country_nepal {
+  background: url("../img/nep_flag.png") no-repeat center center;
+  margin-right: 15px; }
+
+/* line 90, E:/PSD/lesson4/css/style.scss */
+.header_country_tibet {
+  background: url("../img/tib_flag.png") no-repeat center center;
+  margin-right: 15px; }
+
+/* line 95, E:/PSD/lesson4/css/style.scss */
+.header_country_butan {
+  background: url(../img/but_flag.png) no-repeat center center; }
+
+/* line 100, E:/PSD/lesson4/css/style.scss */
+.header_country_sri {
+  background: url(../img/sri_flag.png) no-repeat center center; }
+
+/* line 104, E:/PSD/lesson4/css/style.scss */
+.header_country_maldives {
+  background: url(../img/mal_flag.png) no-repeat center center;
+  margin-left: -5px; }
+
+/* line 109, E:/PSD/lesson4/css/style.scss */
+.wrapper_img {
+  width: 100%;
+  height: 250px; }
+
+/* line 114, E:/PSD/lesson4/css/style.scss */
+.wrapper_nav_main {
+  width: 1000px;
+  font-size: 14px;
+  float: left;
+  /***all style for "li"***/
+  /***hover for all "a"***/
+  /***DROPDOWN***/
+  /***show dropdown***/ }
+  /* line 118, E:/PSD/lesson4/css/style.scss */
+  .wrapper_nav_main li {
+    width: 14.28%;
+    position: relative;
+    float: left;
+    text-align: center;
+    display: block;
+    /***all style for "a"***/ }
+    /* line 124, E:/PSD/lesson4/css/style.scss */
+    .wrapper_nav_main li a {
+      padding: 10px 0;
+      color: #fff;
+      background: #333;
+      text-decoration: none;
+      display: block; }
+  /* line 133, E:/PSD/lesson4/css/style.scss */
+  .wrapper_nav_main a:hover {
+    background: #696969; }
+  /* line 137, E:/PSD/lesson4/css/style.scss */
+  .wrapper_nav_main ul {
+    list-style: none;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    -webkit-transition: 0.25s linear opacity; }
+    /* line 143, E:/PSD/lesson4/css/style.scss */
+    .wrapper_nav_main ul li {
+      text-align: left;
+      float: none;
+      width: 120px; }
+    /* line 148, E:/PSD/lesson4/css/style.scss */
+    .wrapper_nav_main ul a {
+      white-space: nowrap; }
+  /* line 154, E:/PSD/lesson4/css/style.scss */
+  .wrapper_nav_main li:hover ul {
+    left: 0;
+    opacity: 1; }
+    /* line 157, E:/PSD/lesson4/css/style.scss */
+    .wrapper_nav_main li:hover ul a {
+      padding-left: 5%; }
+
+/* line 166, E:/PSD/lesson4/css/style.scss */
+.wrap_container {
+  overflow: hidden;
+  width: 100%; }
+  /* line 169, E:/PSD/lesson4/css/style.scss */
+  .wrap_container h3 {
+    text-align: center;
+    padding: 10px 0; }
+  /* line 173, E:/PSD/lesson4/css/style.scss */
+  .wrap_container p {
+    margin: 0 12px; }
+
+/* line 178, E:/PSD/lesson4/css/style.scss */
+.wrap_container_left {
+  width: 20%;
+  left: -80%;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+
+/* line 187, E:/PSD/lesson4/css/style.scss */
+.wrap_container_right {
+  width: 20%;
+  left: -80%;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+
+/* line 197, E:/PSD/lesson4/css/style.scss */
+.wrap_container_center {
+  width: 60%;
+  left: -79%;
+  position: relative;
+  overflow: hidden;
+  float: left; }
+
+/* line 217, E:/PSD/lesson4/css/style.scss */
+.container_back3 {
+  width: 100%;
+  float: left;
+  background: #898989; }
+
+/* line 223, E:/PSD/lesson4/css/style.scss */
+.container_back2 {
+  width: 100%;
+  left: 20%;
+  float: left;
+  position: relative;
+  background: aliceblue; }
+
+/* line 231, E:/PSD/lesson4/css/style.scss */
+.container_back1 {
+  width: 100%;
+  left: 60%;
+  float: left;
+  position: relative;
+  background: #898989; }
+
+/*# sourceMappingURL=style.css.map */

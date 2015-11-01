@@ -1,0 +1,237 @@
+/***IMPORT***/
+@import 'reset';
+
+/***VARIABLES***/
+$font: Tahoma;
+
+/***TAGS***/
+body {
+    font-family: $font;
+}
+/***FOOTER***/
+/***BACKGROUND***/
+.background_row1 {
+    height: 150px;
+    border-top: 20px solid #1D76B5;
+    background-color: aliceblue;
+}
+
+.background_row2 {
+//    min-height: 999px;
+//    max-height: 100000px;
+    background: #06538A;
+}
+/***WRAPPER***/
+.wrapper {
+    width: 1000px;
+//    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -510px;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 5px 5px #ccc;
+    -webkit-box-shadow: 0 0 5px 5px #ccc;
+    box-shadow: 0 0 5px 5px #ccc;
+}
+/***HEADER***/
+.header {
+    position: relative;
+    height: 160px;
+    padding: 10px 20px 0 20px;
+}
+
+.header_logo {
+    width: 283px;
+    height: 164px;
+    float: left;
+    background: url('../img/logo.png');
+}
+
+.header_contacts {
+    float: right;
+    color: rgba(18, 138, 167, 0.8);    
+    list-style: none;
+    font-size: 12px;
+    li {
+        margin-bottom: 5px;
+    }
+    li:first-child {
+        font-size: 14px;
+        font-weight: 800;
+    }
+}
+
+.header_country {
+    bottom: 10px;
+    right: 20px;
+    position: absolute;
+    list-style: none;
+    li {
+         display: inline-block;
+    }
+    a {
+        padding: 55px 10px 0 7px;
+        font-size: 10px;
+        color: #128aa7;
+    }
+}
+
+.header_country_india {
+    background: url('../img/ind_flag.png') no-repeat center center;
+    margin-right: 15px;
+}
+
+.header_country_nepal {
+    background: url('../img/nep_flag.png') no-repeat center center;
+    margin-right: 15px;
+}
+
+.header_country_tibet {
+    background: url('../img/tib_flag.png') no-repeat center center;
+    margin-right: 15px;
+}
+
+.header_country_butan {
+    background: url(../img/but_flag.png) no-repeat center center;
+    
+}
+
+.header_country_sri {
+    background: url(../img/sri_flag.png) no-repeat center center;
+}
+
+.header_country_maldives {
+    background: url(../img/mal_flag.png) no-repeat center center;
+    margin-left: -5px;
+}
+
+.wrapper_img {
+    width: 100%;
+    height: 250px;
+}
+
+.wrapper_nav_main {
+    width: 1000px;
+    font-size: 14px;
+    float: left;
+    li {
+        width: 14.28%;
+        position: relative;
+        float: left;
+        text-align: center;
+        display: block;
+      a {
+        padding: 10px 0;
+	    color:#fff;
+	    background:#333;
+	    text-decoration:none;
+        display: block;
+      }
+    /***all style for "a"***/
+    }/***all style for "li"***/
+    a:hover {
+        background: #696969;
+    }/***hover for all "a"***/
+ /***DROPDOWN***/
+  ul {
+    list-style:none;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    -webkit-transition:0.25s linear opacity;
+    li {
+      text-align: left;
+      float: none;        
+      width: 120px;
+     }
+    a {
+        white-space: nowrap;
+      }
+  }
+  /***show dropdown***/
+  li:hover {
+     ul {
+      left: 0;
+      opacity: 1;
+      a {
+        padding-left: 5%;
+      }
+    }
+  }
+}
+
+
+
+.wrap_container {
+    overflow: hidden;
+    width: 100%;
+    h3 {
+        text-align: center;
+        padding: 10px 0;
+    }
+    p {
+        margin: 0 12px;
+    }
+}
+
+.wrap_container_left {
+    width: 20%;
+    left: -80%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+//    background: #696969;
+}
+
+.wrap_container_right {
+    width: 20%;
+    left: -80%;
+//    padding: 5%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+//    background: #696969;
+}
+
+.wrap_container_center {
+    width: 60%;
+    left: -79%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+//    background: yellow;
+}
+
+//.wrap_footer {
+//    position: absolute;
+//    bottom: 0;
+//    height: 20px;
+//    font-size: 12px;
+//    padding: 5px 0;
+//    color: #fff;
+//    text-align: center;
+//    background: #06538A;
+////}
+
+.container_back3 {
+    width: 100%;
+    float: left;
+    background: #898989;
+}
+
+.container_back2 {
+    width: 100%;
+    left: 20%;
+    float: left;
+    position: relative;
+    background: aliceblue;
+}
+
+.container_back1 {
+    width: 100%;
+    left: 60%;
+    float: left;
+    position: relative;
+    background: #898989;
+}
