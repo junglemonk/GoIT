@@ -1,6 +1,5 @@
 /***IMPORT***/
 @import 'reset';
-
 /***VARIABLES***/
 $font: Tahoma;
 
@@ -17,22 +16,20 @@ body {
 }
 
 .background_row2 {
-//    min-height: 999px;
-//    max-height: 100000px;
+    height: 900px;
     background: #06538A;
 }
 /***WRAPPER***/
 .wrapper {
     width: 1000px;
-//    height: 100%;
     position: absolute;
     overflow: hidden;
     left: 50%;
     margin-left: -510px;
     background-color: #fff;
-    -moz-box-shadow: 0 0 5px 5px #ccc;
-    -webkit-box-shadow: 0 0 5px 5px #ccc;
-    box-shadow: 0 0 5px 5px #ccc;
+    -moz-box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
 /***HEADER***/
 .header {
@@ -40,14 +37,12 @@ body {
     height: 160px;
     padding: 10px 20px 0 20px;
 }
-
 .header_logo {
     width: 283px;
     height: 164px;
     float: left;
     background: url('../img/logo.png');
 }
-
 .header_contacts {
     float: right;
     color: rgba(18, 138, 167, 0.8);    
@@ -61,7 +56,6 @@ body {
         font-weight: 800;
     }
 }
-
 .header_country {
     bottom: 10px;
     right: 20px;
@@ -76,41 +70,33 @@ body {
         color: #128aa7;
     }
 }
-
 .header_country_india {
     background: url('../img/ind_flag.png') no-repeat center center;
     margin-right: 15px;
 }
-
 .header_country_nepal {
     background: url('../img/nep_flag.png') no-repeat center center;
     margin-right: 15px;
 }
-
 .header_country_tibet {
     background: url('../img/tib_flag.png') no-repeat center center;
     margin-right: 15px;
 }
-
 .header_country_butan {
     background: url(../img/but_flag.png) no-repeat center center;
     
 }
-
 .header_country_sri {
     background: url(../img/sri_flag.png) no-repeat center center;
 }
-
 .header_country_maldives {
     background: url(../img/mal_flag.png) no-repeat center center;
     margin-left: -5px;
 }
-
 .wrapper_img {
     width: 100%;
     height: 250px;
 }
-
 .wrapper_nav_main {
     width: 1000px;
     font-size: 14px;
@@ -138,8 +124,8 @@ body {
     list-style:none;
     position: absolute;
     left: -9999px;
-    opacity: 0;
-    -webkit-transition:0.25s linear opacity;
+    z-index: 999;
+    display: none;
     li {
       text-align: left;
       float: none;        
@@ -153,19 +139,70 @@ body {
   li:hover {
      ul {
       left: 0;
-      opacity: 1;
+      display: block;
       a {
         padding-left: 5%;
       }
     }
   }
 }
-
-
-
-.wrap_container {
-    overflow: hidden;
+/***columb***/
+.container_back_main {
+   width: 100%;
+   left: 60%;
+   position: relative;
+   float: left;
+   background: grey;
+}
+.container_back2 {
+  width: 100%;
+  left: 20%;
+  position: relative;
+  float: left;
+  background: #fff;
+}
+.container_back3 {
+  width: 100%;
+  position: relative;
+  float: left;
+  background: grey;
+  overflow: hidden;
+}
+/***content***/
+.wrap_contanier_left {
+  width: 16%;
+  min-height: 520px;
+  left: -78%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.wrap_container_center {
+  width: 56%;
+  left: -74%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.wrap_container_right {
+  width: 16%;
+  left: -70%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+/***columb***/
+.footer {
     width: 100%;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: #06538A;
+    p {
+        padding: 5px 0;
+    }
+}
+.wrap_content {
     h3 {
         text-align: center;
         padding: 10px 0;
@@ -175,63 +212,4 @@ body {
     }
 }
 
-.wrap_container_left {
-    width: 20%;
-    left: -80%;
-    float: left;
-    position: relative;
-    overflow: hidden;
-//    background: #696969;
-}
 
-.wrap_container_right {
-    width: 20%;
-    left: -80%;
-//    padding: 5%;
-    float: left;
-    position: relative;
-    overflow: hidden;
-//    background: #696969;
-}
-
-.wrap_container_center {
-    width: 60%;
-    left: -79%;
-    position: relative;
-    overflow: hidden;
-    float: left;
-//    background: yellow;
-}
-
-//.wrap_footer {
-//    position: absolute;
-//    bottom: 0;
-//    height: 20px;
-//    font-size: 12px;
-//    padding: 5px 0;
-//    color: #fff;
-//    text-align: center;
-//    background: #06538A;
-////}
-
-.container_back3 {
-    width: 100%;
-    float: left;
-    background: #898989;
-}
-
-.container_back2 {
-    width: 100%;
-    left: 20%;
-    float: left;
-    position: relative;
-    background: aliceblue;
-}
-
-.container_back1 {
-    width: 100%;
-    left: 60%;
-    float: left;
-    position: relative;
-    background: #898989;
-}
