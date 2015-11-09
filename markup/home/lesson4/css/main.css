@@ -1,0 +1,227 @@
+/* line 13, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 26, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 29, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 32, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 36, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 40, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* variables */
+/* variables */
+/* snippet */
+/* line 6, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block; }
+
+/* snippet */
+/* tags */
+/* line 13, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+body {
+  height: 100%;
+  font-family: Tahoma, sans-serif; }
+
+/* tags */
+/* line 18, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.background {
+  height: 100%;
+  position: relative;
+  background: #128aa7; }
+
+/* line 23, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.background_row {
+  width: 100%;
+  height: 150px;
+  border-top: 25px solid #128aa7;
+  background: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+/* line 33, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.wrapper {
+  width: 1000px;
+  min-height: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 10;
+  vertical-align: middle;
+  background: #fff; }
+
+/* line 44, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.header {
+  height: 165px;
+  padding: 10px 20px 0 20px;
+  position: relative; }
+
+/* line 49, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.header_contacts {
+  float: right;
+  color: rgba(18, 138, 167, 0.8);
+  font-size: 12px;
+  line-height: 21px; }
+
+/* line 55, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.header_flags {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  font-size: 12px; }
+  /* line 60, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .header_flags a {
+    color: #128aa7; }
+  /* line 63, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .header_flags li {
+    display: inline-block;
+    margin: 0 10px 0 0; }
+  /* line 67, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .header_flags li:last-child {
+    margin: 0 0 0 -5px; }
+  /* line 70, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .header_flags span {
+    display: block;
+    text-align: center; }
+
+/* line 75, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.logo {
+  width: 283px;
+  height: 65px;
+  padding-top: 100px;
+  float: left;
+  background: url("../img/logo.png");
+  text-align: center;
+  text-decoration: none;
+  color: #128aa7; }
+
+/* line 85, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.wrapper_img {
+  width: 1000px;
+  height: 250px;
+  vertical-align: middle; }
+
+/* line 90, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.wrapper_menu {
+  width: 1000px;
+  font-size: 14px;
+  border-bottom: 1px solid #000; }
+  /* line 94, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .wrapper_menu a:hover {
+    background: #696969; }
+  /* line 97, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .wrapper_menu li {
+    width: 14.28%;
+    float: left;
+    display: block;
+    position: relative;
+    vertical-align: middle; }
+    /* line 103, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+    .wrapper_menu li ul {
+      left: -9999px;
+      position: absolute;
+      display: none; }
+  /* line 109, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .wrapper_menu a {
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #303030;
+    display: block; }
+  /* line 118, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .wrapper_menu li:hover ul {
+    left: 0;
+    display: block; }
+    /* line 121, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+    .wrapper_menu li:hover ul li {
+      width: 143px;
+      float: none; }
+    /* line 125, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+    .wrapper_menu li:hover ul a {
+      text-align: left;
+      padding-left: 10px; }
+
+/* line 132, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.wrap_container {
+  width: 100%;
+  height: 100%;
+  min-height: 900px;
+  display: table; }
+  /* line 137, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+  .wrap_container h3 {
+    text-align: center; }
+
+/* line 141, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.conteiner_left {
+  width: 20%;
+  display: table-cell;
+  background: #696969; }
+
+/* line 146, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.container_center {
+  width: 60%;
+  display: table-cell; }
+
+/* line 150, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.container_right {
+  width: 20%;
+  display: table-cell;
+  background: #696969; }
+/* line 156, C:/Users/junglemonk/GoIT/markup/home/lesson4/css/main.scss */
+.footer {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  z-index: 15;
+  background: #128aa7; }
+
+/*# sourceMappingURL=main.css.map */
