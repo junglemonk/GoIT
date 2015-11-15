@@ -1,0 +1,602 @@
+/* line 13, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 26, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 29, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 32, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* font */
+@font-face {
+  font-family: "lucida_sans_unicoderegular";
+  src: url("../font/lsansuni-webfont.eot");
+  src: url("../font/lsansuni-webfont.eot?#iefix") format("embedded-opentype"), url("../font/lsansuni-webfont.woff") format("woff"), url("../font/lsansuni-webfont.ttf") format("truetype"), url("../font/lsansuni-webfont.svg#lucida_sans_unicoderegular") format("svg"); }
+
+/* font */
+/* snippets */
+/* line 16, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block; }
+
+/* snippets */
+/* variables */
+/* variables */
+/* tags */
+/* line 28, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  font-family: "lucida_sans_unicoderegular", Arial; }
+
+/* line 34, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+a {
+  text-decoration: none; }
+
+/* tags */
+/* line 38, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper {
+  width: 909px;
+  margin: 0 auto; }
+
+/* header */
+/* line 43, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_phone {
+  width: 280px;
+  height: 21px;
+  margin: 22px 16px 11px 7px;
+  font-size: 18px;
+  font-family: Arial, Tahoma sans-serif;
+  float: left;
+  color: #5e696d;
+  display: block; }
+
+/* line 53, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_phone:before {
+  width: 22px;
+  height: 21px;
+  margin-right: 3px;
+  content: '';
+  position: relative;
+  float: left;
+  background: url(../img/header_phone_icon.png) no-repeat center center; }
+
+/* header_form */
+/* line 63, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_form {
+  width: 496px;
+  margin: 17px 5px 10px 0;
+  box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  border-radius: 5px;
+  font-size: 11px;
+  float: left;
+  background: -webkit-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: -moz-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: -o-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: -ms-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: linear-gradient(172deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%); }
+  /* line 75, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px; }
+  /* line 82, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form input {
+    width: 113px;
+    height: 16px;
+    margin: 3px 0 4px 0;
+    float: left;
+    color: #53656c; }
+    /* line 88, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .header_form input:focus {
+      outline: 1px solid orange; }
+  /* line 92, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form input:first-of-type {
+    margin-right: 8px; }
+  /* line 95, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form ::-webkit-input-placeholder {
+    font-size: 10px;
+    padding: 2px 0 0 5px; }
+  /* line 99, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 10px;
+    padding: 2px 0 0 5px; }
+  /* line 103, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 10px;
+    padding: 2px 0 0 5px; }
+  /* line 107, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form :-ms-input-placeholder {
+    font-size: 10px;
+    padding: 2px 0 0 5px; }
+
+/* line 112, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_form_aimg {
+  float: left;
+  margin: 3px 0 3px 0; }
+  /* line 115, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .header_form_aimg img {
+    width: 14px;
+    height: 18px; }
+
+/* line 120, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_form_entxt {
+  margin: 7px 0 6px 0;
+  color: #fff;
+  float: left; }
+
+/* line 125, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_form_reg {
+  margin: 9px 0 6px 0;
+  padding-left: 5px;
+  border-left: 1px solid #fff;
+  color: #fff;
+  float: left; }
+
+/* line 132, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_form_forget {
+  margin: 9px 10px 6px 0;
+  float: right;
+  text-decoration: underline;
+  color: #bfbfbf; }
+
+/* line 138, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_nav {
+  width: 75px;
+  height: 21px;
+  margin: 19px 5px 0 0;
+  border-radius: 25px;
+  border: 1px solid #bfbfbf;
+  float: right; }
+
+/* line 147, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_nav_home {
+  width: 12px;
+  height: 11px;
+  margin: 3px 8px 0 9px;
+  float: left;
+  background: url(../img/home.png) no-repeat center center; }
+
+/* line 155, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_nav_busket {
+  width: 14px;
+  height: 10px;
+  margin: 3px 8px 0 0;
+  float: left;
+  background: url(../img/header_sitemap.png) no-repeat center center; }
+
+/* line 163, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.header_nav_message {
+  width: 12px;
+  height: 9px;
+  margin: 4px 0 0 0;
+  float: left;
+  background: url(../img/header_nav_message.png) no-repeat center center; }
+
+/* header_form */
+/* header */
+/* line 172, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrap_banner {
+  width: 909px;
+  height: 237px;
+  margin: 0 0 7px 0;
+  vertical-align: middle; }
+
+/* navigation */
+/* line 179, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_nav {
+  width: 771px;
+  height: 30px;
+  padding: 0 13px 0 125px;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  border-top: 3px solid #696969;
+  border-radius: 5px;
+  background: #000; }
+
+/* line 188, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_nav_menu {
+  font-size: 14px;
+  text-transform: uppercase; }
+  /* line 191, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_nav_menu li {
+    float: left; }
+    /* line 193, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper_nav_menu li:hover {
+      border-radius: 20px;
+      background: -webkit-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+      background: -moz-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+      background: -o-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+      background: -ms-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+      background: linear-gradient(172deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%); }
+  /* line 202, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_nav_menu a {
+    padding: 8px 15px;
+    line-height: 28px;
+    color: #b1bcc0; }
+    /* line 206, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper_nav_menu a:hover {
+      color: #fff; }
+
+/* line 211, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_nav_basket {
+  line-height: 28px;
+  font-size: 11px;
+  padding: 0 0 0 27px;
+  margin: 0 14px 0 50px;
+  color: #929b9f;
+  display: inline-block;
+  background: url(../img/wrapper_nav_basket.png) no-repeat left center; }
+  /* line 219, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_nav_basket span {
+    color: #0d5a8f;
+    font-size: 12px; }
+
+/* line 224, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__basket_cash {
+  color: #8a9296;
+  font-size: 11px; }
+  /* line 227, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__basket_cash span {
+    color: #0d5a8f;
+    font-size: 12px; }
+
+/* navigation */
+/* main container */
+/* line 234, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_container {
+  width: 909px;
+  margin: 15px 0 0 0; }
+
+/* line 238, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_container_catalog {
+  width: 181px;
+  float: left; }
+  /* line 242, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_container_catalog h1,
+  .wrapper_container_catalog h2 {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #114165; }
+
+/* main container */
+/* aside catalog */
+/* line 252, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__catalog {
+  width: 147px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.75);
+  position: relative; }
+  /* line 259, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__catalog:before {
+    width: 22px;
+    height: 21px;
+    left: 5px;
+    top: 50%;
+    margin-top: -11px;
+    content: '';
+    position: absolute;
+    display: inline-block;
+    background: url(../img/wrapper__catalog.png) no-repeat center center; }
+
+/* line 271, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__catalog_tyre {
+  max-width: 127px;
+  height: 24px;
+  margin: 15px 0 10px 2px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  position: relative; }
+  /* line 279, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__catalog_tyre:before {
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 3px;
+    margin-top: -11px;
+    border: 5px solid #114165;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    display: inline-block; }
+
+/* line 293, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__catalog_menu li {
+  height: 20px; }
+
+/* line 296, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__catalog_menu a {
+  margin: 10px 0 10px 30px;
+  font-size: 14px;
+  display: block;
+  color: #465961;
+  position: relative; }
+  /* line 302, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__catalog_menu a:hover {
+    font-size: 15.4px;
+    font-weight: 700;
+    color: #0c3256;
+    text-decoration: underline;
+    box-sizing: border-box; }
+    /* line 308, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper__catalog_menu a:hover:before {
+      border: 2px solid #0c3256; }
+  /* line 312, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__catalog_menu a:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 50%;
+    margin-top: -3px;
+    left: -10px;
+    border: 2px solid #ccc;
+    border-radius: 50%; }
+
+/* line 326, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__catalog_disk {
+  max-width: 127px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  line-height: 28px;
+  position: relative; }
+  /* line 333, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__catalog_disk:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 3px;
+    margin-top: -10px;
+    border: 5px solid #114165;
+    border-radius: 50%;
+    position: absolute; }
+
+/* line 346, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__catalog_bolt {
+  max-width: 127px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  line-height: 28px;
+  position: relative; }
+  /* line 353, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__catalog_bolt:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 3px;
+    margin-top: -10px;
+    border: 5px solid #114165;
+    border-radius: 50%;
+    position: absolute; }
+
+/* main aside catalog */
+/* main center items */
+/* line 367, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_container_item {
+  width: 538px;
+  min-height: 628px;
+  margin: 0 5px;
+  padding: 0;
+  float: left;
+  background: #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 378, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__item_list {
+  width: 518px;
+  margin: 0 auto; }
+  /* line 381, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__item_list li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    display: inline-block;
+    text-align: center;
+    position: relative; }
+  /* line 390, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__item_list a {
+    font-size: 16px;
+    color: #206988; }
+    /* line 393, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper__item_list a span {
+      font-size: 14px;
+      display: block;
+      color: #1f2528; }
+  /* line 399, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__item_list img {
+    width: 69px;
+    height: 118px;
+    padding: 4px 35px 5px 33px;
+    border: 1px solid #696969;
+    border-radius: 7px;
+    background: #fff; }
+
+/* line 408, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__list_price {
+  bottom: 0;
+  left: 45px;
+  position: absolute;
+  color: #114165;
+  font-weight: 700; }
+
+/* main center items */
+/* main aside brand */
+/* line 418, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_container_brand {
+  width: 180px;
+  float: left; }
+  /* line 422, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_container_brand h1,
+  .wrapper_container_brand h2 {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #114165; }
+
+/* line 431, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__brand {
+  max-width: 184px;
+  line-height: 28px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+  position: relative; }
+  /* line 439, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__brand:before {
+    width: 23px;
+    height: 23px;
+    top: 50%;
+    left: 5px;
+    margin-top: -12px;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: url(../img/wrapper__catalog.png) no-repeat center center; }
+
+/* line 452, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__brand_form {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #465961; }
+  /* line 456, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__brand_form li {
+    margin-top: 10px; }
+  /* line 459, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__brand_form input {
+    cursor: pointer; }
+  /* line 462, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__brand_form label {
+    margin-left: 10px; }
+  /* line 466, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper__brand_form span {
+    min-width: 49px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px;
+    margin-top: -10px; }
+
+/* line 475, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper__brand_btn {
+  margin-top: 25px;
+  padding: 0 13px;
+  border-radius: 20px;
+  line-height: 25px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #e5e9ea;
+  cursor: pointer;
+  background: -webkit-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: -moz-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: -o-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: -ms-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
+  background: linear-gradient(172deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%); }
+
+/* main aside brand */
+/* main */
+/* line 492, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_companies {
+  width: 710px;
+  padding: 25px 0;
+  margin: 0 auto; }
+  /* line 496, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_companies li {
+    margin-right: 12px;
+    display: inline-block; }
+    /* line 499, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper_companies li:last-of-type {
+      margin-right: 0; }
+
+/* footer */
+/* line 505, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_footer {
+  width: 909px;
+  height: 100px;
+  padding-top: 10px;
+  font-family: Arial, Tahoma sans-serif;
+  background-color: #4b649d; }
+
+/* line 513, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_footer_nav {
+  width: 500px;
+  margin: 0 auto; }
+  /* line 516, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_footer_nav ul {
+    text-align: center; }
+  /* line 519, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_footer_nav li {
+    padding: 0 10px;
+    display: inline-block;
+    border-right: 1px solid #bec6c9; }
+    /* line 523, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper_footer_nav li:last-of-type {
+      border: none; }
+  /* line 527, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  .wrapper_footer_nav a {
+    font-size: 13px;
+    color: #bec6c9; }
+    /* line 530, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    .wrapper_footer_nav a:hover {
+      color: #52accb; }
+
+/* line 535, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+.wrapper_footer_copyright {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #7f4740;
+  text-align: center; }
+
+/* footer */
+
+/*# sourceMappingURL=main.css.map */
