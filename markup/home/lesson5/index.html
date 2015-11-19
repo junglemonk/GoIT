@@ -24,19 +24,22 @@
         <div class="wrap_singin">
             <h2>Cadastre-se</h2>
             
-            <form class="wrap__form" action="#">
+            <div class="wrap_singin_btn">
                 <a href="https://www.facebook.com/andrew.krilik" target="_blank">F</a>
                 <button class="wrap__fblogin" type="submit">Log in <span>with</span> facebook</button>
+            </div>
+            <form class="wrap__form" action="#">
+                
                 <span class="wrap_linetxtline">OU</span>
-                <input type="text" name="first name" placeholder="First Name">
-                <input type="text" name="last name" placeholder="Last Name">
-                <input type="email" name="email" placeholder="Email Address">
-                <input type="password" name="pass" placeholder="Choose Password">
-                <input type="password" name="pass conf" placeholder="Password Confirm">
+                <input class="form_input" type="text" name="first name" placeholder="First Name">
+                <input class="form_input" type="text" name="last name" placeholder="Last Name">
+                <input class="form_input" type="email" name="email" placeholder="Email Address">
+                <input class="form_input" type="password" name="pass" placeholder="Choose Password">
+                <input class="form_input" type="password" name="pass conf" placeholder="Password Confirm">
                 <div class="wrap__checkbox clearfix">
-                    <input type="checkbox" id="check"><label for="check">Send me Youbike updates and tips</label>
+                    <input class="form_input" type="checkbox" id="check"><label for="check">Send me Youbike updates and tips</label>
                 </div>
-                <button class="wrap__create" type="submit">Greate my Account</button>
+                <input class="wrap__create" type="submit" value="Greate my Account">
             </form>
             <p class="footer">By clicking the button above, you agree to the Terms of Service.
 View our Privacy Policy.</p>
