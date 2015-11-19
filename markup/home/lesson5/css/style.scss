@@ -1,6 +1,16 @@
 @import 'reset';
+@mixin font-face($font-family: "Helvetica Neue") {
+  @font-face {
+    font-family: $font-family;
+      src: url('../font/HelveticaNeue.eat');
+      src: url('../font/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+           url('../font/HelveticaNeue.woff') format('woff'),
+           url('../font/HelveticaNeue.ttf') format('truetype'),
+  }
+}
+@include font-face('Helvetica Neue');
 /* variables */
-$font: Tahoma, Arial;
+$font: "Helvetica Neue", Tahoma;
 /* variables */
 /* snippets */
 .clearfix:after {
@@ -13,6 +23,7 @@ $font: Tahoma, Arial;
 body {
     width: 100%;
     height: 100%;
+    line-height: 1;
 }
 button {
     outline: none;
@@ -21,7 +32,7 @@ button {
 }
 input {
     border: none;
-    outline: none;
+//    outline: none;
 }
 /* tags */
 .wrapper {
@@ -60,7 +71,7 @@ input {
     float: right;
     padding: 0 10px 0 40px;
     line-height: 36px;
-    border-left: 1px solid #128aa7;
+    border-left: 2px solid #128aa7;
     color: #fefefe;
     text-decoration: none;
     background: url(../img/inventicons-29.png) no-repeat center left 10px;
@@ -99,6 +110,20 @@ input {
     height: 450px;
     margin: 20px auto;
     color: aliceblue;
+    a {
+        padding: 0 10px;
+        line-height: 35px;
+        font-size: 17px;
+        border-right: 1px solid #128aa7;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        color: #fff;
+        float: left;
+        text-decoration: none;
+        background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+        background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+        background: linear-gradient(to top, #3b5998 50%, #99CBEF 100%);
+    }
     input {
         width: 260px;
         margin: 10px 0;
@@ -108,7 +133,8 @@ input {
     }
     input:focus {
         background: royalblue;
-        outline: 2px solid #54ABDA;
+        outline-color: yellow;
+        box-shadow: 0 0 10px rgb(224, 237, 24)
     }
     ::-webkit-input-placeholder {
         color: #fff;
@@ -125,19 +151,21 @@ input {
 }
 
 .wrap__fblogin {
-    width: 276px;
+    width: 244px;
     height: 35px;
+    margin-bottom: 30px;
     border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     font-weight: 800;
     color: aliceblue;
-    background: linear-gradient(0deg, #3b5998 50%, #99CBEF 100%);
+    float: left;
+    background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+    background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+    background: url(../img/wrapper_btn.png) no-repeat right 20px center, linear-gradient(to top, #3b5998 50%, #99CBEF 100%) ;
     span {
         font-weight: 400;
     }
-}
-
-.wrap__inp1 {
-    
 }
 
 .wrap__checkbox {
@@ -170,13 +198,14 @@ input {
 }
 
 .wrap_linetxtline {
-    margin: 30px 0 20px 0;
+    margin-bottom: 20px;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
     color: #ccc;
     text-align: center;
     display: block;
+    clear: both;
 }
 .wrap_linetxtline:before,
 .wrap_linetxtline:after {
