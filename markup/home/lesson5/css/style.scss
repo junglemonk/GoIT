@@ -110,32 +110,6 @@ input {
     height: 450px;
     margin: 20px auto;
     color: aliceblue;
-    a {
-        padding: 0 10px;
-        line-height: 35px;
-        font-size: 17px;
-        border-right: 1px solid #128aa7;
-        border-top-left-radius: 2px;
-        border-bottom-left-radius: 2px;
-        color: #fff;
-        float: left;
-        text-decoration: none;
-        background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
-        background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
-        background: linear-gradient(to top, #3b5998 50%, #99CBEF 100%);
-    }
-    input {
-        width: 260px;
-        margin: 10px 0;
-        padding: 10px 0 10px 15px;
-        color: aliceblue;
-        background: #000;
-    }
-    input:focus {
-        background: royalblue;
-        outline-color: yellow;
-        box-shadow: 0 0 10px rgb(224, 237, 24)
-    }
     ::-webkit-input-placeholder {
         color: #fff;
     }
@@ -187,6 +161,7 @@ input {
     padding: 10px 15px;
     border-radius: 3px;
     color: aliceblue;
+    cursor: pointer;
     background: linear-gradient(0deg, #3b5998 0%, #70CBEF 100%);
 }
 
@@ -226,3 +201,37 @@ input {
 	left: 0.5em;
 	margin: 0 -50% 0 0;
 	}
+.wrap_singin_btn {
+    width: 275px;
+    margin: 30px auto;
+    a {
+        padding: 0 11px;
+        line-height: 35px;
+        font-size: 24px;
+        font-weight: bold;
+        border-right: 1px solid #128aa7;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        color: #fff;
+        float: left;
+        text-decoration: none;
+        text-transform: lowercase;
+        background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+        background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+        background: linear-gradient(to top, #3b5998 50%, #99CBEF 100%);
+    }
+}
+
+.form_input {
+    width: 260px;
+    margin: 10px 0;
+    padding: 10px 0 10px 15px;
+    color: aliceblue;
+    
+    background: #000;
+    &:focus {
+        background: royalblue;
+        outline-color: dodgerblue;
+        box-shadow: 0 0 20px dodgerblue
+    }
+}

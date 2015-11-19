@@ -458,9 +458,12 @@ a {
         }
         input {
             cursor: pointer;
+            margin: 0;
+            vertical-align: text-top;
         }
         label {
             margin-left: 10px;
+            vertical-align: middle;
             
         }
         span {

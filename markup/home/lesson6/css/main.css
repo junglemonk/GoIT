@@ -515,11 +515,14 @@ a {
     margin-top: 10px; }
   /* line 459, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper__brand_form input {
-    cursor: pointer; }
-  /* line 462, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    cursor: pointer;
+    margin: 0;
+    vertical-align: text-top; }
+  /* line 464, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper__brand_form label {
-    margin-left: 10px; }
-  /* line 466, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    margin-left: 10px;
+    vertical-align: middle; }
+  /* line 469, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper__brand_form span {
     min-width: 49px;
     display: inline-block;
@@ -527,7 +530,7 @@ a {
     line-height: 25px;
     margin-top: -10px; }
 
-/* line 475, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+/* line 478, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
 .wrapper__brand_btn {
   margin-top: 25px;
   padding: 0 13px;
@@ -545,21 +548,21 @@ a {
 
 /* main aside brand */
 /* main */
-/* line 492, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+/* line 495, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
 .wrapper_companies {
   width: 710px;
   padding: 25px 0;
   margin: 0 auto; }
-  /* line 496, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  /* line 499, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper_companies li {
     margin-right: 12px;
     display: inline-block; }
-    /* line 499, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    /* line 502, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
     .wrapper_companies li:last-of-type {
       margin-right: 0; }
 
 /* footer */
-/* line 505, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+/* line 508, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
 .wrapper_footer {
   width: 909px;
   height: 100px;
@@ -567,30 +570,30 @@ a {
   font-family: Arial, Tahoma sans-serif;
   background-color: #4b649d; }
 
-/* line 513, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+/* line 516, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
 .wrapper_footer_nav {
   width: 500px;
   margin: 0 auto; }
-  /* line 516, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  /* line 519, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper_footer_nav ul {
     text-align: center; }
-  /* line 519, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  /* line 522, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper_footer_nav li {
     padding: 0 10px;
     display: inline-block;
     border-right: 1px solid #bec6c9; }
-    /* line 523, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    /* line 526, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
     .wrapper_footer_nav li:last-of-type {
       border: none; }
-  /* line 527, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+  /* line 530, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
   .wrapper_footer_nav a {
     font-size: 13px;
     color: #bec6c9; }
-    /* line 530, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+    /* line 533, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
     .wrapper_footer_nav a:hover {
       color: #52accb; }
 
-/* line 535, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
+/* line 538, C:/Users/junglemonk/GoIT/markup/home/lesson6/css/main.scss */
 .wrapper_footer_copyright {
   margin-top: 10px;
   font-size: 10px;

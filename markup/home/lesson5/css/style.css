@@ -154,47 +154,21 @@ input {
   margin: 20px auto;
   color: aliceblue; }
   /* line 113, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
-  .wrap__form a {
-    padding: 0 10px;
-    line-height: 35px;
-    font-size: 17px;
-    border-right: 1px solid #128aa7;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-    color: #fff;
-    float: left;
-    text-decoration: none;
-    background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
-    background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
-    background: linear-gradient(to top, #3b5998 50%, #99CBEF 100%); }
-  /* line 127, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
-  .wrap__form input {
-    width: 260px;
-    margin: 10px 0;
-    padding: 10px 0 10px 15px;
-    color: aliceblue;
-    background: #000; }
-  /* line 134, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
-  .wrap__form input:focus {
-    background: royalblue;
-    outline-color: yellow;
-    box-shadow: 0 0 10px #e0ed18; }
-  /* line 139, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__form ::-webkit-input-placeholder {
     color: #fff; }
-  /* line 142, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  /* line 116, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__form :-moz-placeholder {
     /* Firefox 18- */
     color: #fff; }
-  /* line 145, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  /* line 119, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__form ::-moz-placeholder {
     /* Firefox 19+ */
     color: #fff; }
-  /* line 148, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  /* line 122, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__form :-ms-input-placeholder {
     color: #fff; }
 
-/* line 153, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 127, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap__fblogin {
   width: 244px;
   height: 35px;
@@ -208,40 +182,41 @@ input {
   background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
   background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
   background: url(../img/wrapper_btn.png) no-repeat right 20px center, linear-gradient(to top, #3b5998 50%, #99CBEF 100%); }
-  /* line 166, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  /* line 140, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__fblogin span {
     font-weight: 400; }
 
-/* line 171, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 145, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap__checkbox {
   margin: 10px 0 20px 0; }
-  /* line 173, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  /* line 147, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__checkbox input {
     width: 13px;
     margin: 3px 0;
     float: left;
     cursor: pointer; }
-  /* line 179, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  /* line 153, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
   .wrap__checkbox label {
     margin-left: -30px;
     font-size: 14px;
     cursor: pointer; }
 
-/* line 186, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 160, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap__create {
   padding: 10px 15px;
   border-radius: 3px;
   color: aliceblue;
+  cursor: pointer;
   background: linear-gradient(0deg, #3b5998 0%, #70CBEF 100%); }
 
-/* line 193, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 168, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .footer {
   width: 309px;
   margin: 20px auto;
   font-size: 11px;
   color: #ccc; }
 
-/* line 200, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 175, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap_linetxtline {
   margin-bottom: 20px;
   position: relative;
@@ -252,7 +227,7 @@ input {
   display: block;
   clear: both; }
 
-/* line 211, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 186, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap_linetxtline:before,
 .wrap_linetxtline:after {
   width: 50%;
@@ -264,14 +239,48 @@ input {
   background-clip: content-box;
   background: #ccc; }
 
-/* line 221, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 196, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap_linetxtline:before {
   left: -0.5em;
   margin: 0 0 0 -50%; }
 
-/* line 225, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+/* line 200, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
 .wrap_linetxtline:after {
   left: 0.5em;
   margin: 0 -50% 0 0; }
+
+/* line 204, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+.wrap_singin_btn {
+  width: 275px;
+  margin: 30px auto; }
+  /* line 207, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  .wrap_singin_btn a {
+    padding: 0 11px;
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    border-right: 1px solid #128aa7;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+    text-transform: lowercase;
+    background: -webkit-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+    background: -o-linear-gradient(bottom, #3b5998 50%, #99CBEF 100%);
+    background: linear-gradient(to top, #3b5998 50%, #99CBEF 100%); }
+
+/* line 225, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+.form_input {
+  width: 260px;
+  margin: 10px 0;
+  padding: 10px 0 10px 15px;
+  color: aliceblue;
+  background: #000; }
+  /* line 232, C:/Users/junglemonk/GoIT/markup/home/lesson5/css/style.scss */
+  .form_input:focus {
+    background: royalblue;
+    outline-color: dodgerblue;
+    box-shadow: 0 0 20px dodgerblue; }
 
 /*# sourceMappingURL=style.css.map */
