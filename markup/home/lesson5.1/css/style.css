@@ -2,162 +2,107 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
-/* line 7, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+/* line 9, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
 tr,
 td {
   margin: 0;
   padding: 0; }
 
-/* line 11, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrapper {
-  width: 960px;
-  margin: 0 auto; }
+/* line 13, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+table {
+  margin: 5% auto; }
 
 /* line 16, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrapper_table {
-  width: 500px;
-  margin: auto;
-  border-collapse: collapse; }
-  /* line 20, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrapper_table td {
-    border: 5px solid #000;
-    border-top: none; }
+td {
+  border: 5px solid black;
+  height: 50px;
+  width: 50px; }
+
+/* line 23, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row1 td:first-of-type {
+  border-top: none;
+  border-left: none; }
 
 /* line 27, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_header td {
-  height: 50px; }
-  /* line 29, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_header td:first-of-type {
-    width: 100px;
-    border-left: none; }
-  /* line 33, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_header td:nth-of-type(2) {
-    width: 200px; }
-  /* line 36, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_header td:nth-of-type(3) {
-    width: 200px;
-    border-right: none;
-    background: yellow; }
+.row1 td:nth-of-type(2) {
+  border-top: none; }
 
-/* line 45, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_body td {
-  height: 150px; }
-  /* line 47, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body td:first-of-type {
-    width: 50px;
-    border-left: none; }
-  /* line 51, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body td:nth-of-type(2) {
-    width: 250px;
-    border-bottom: 5px solid red;
-    background: red; }
-  /* line 56, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body td:nth-of-type(3) {
-    width: 200px;
-    border-right: none;
-    background: yellow; }
+/* line 30, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row1 td:nth-of-type(3) {
+  border-top: none;
+  background: yellow;
+  border-right: none; }
 
-/* line 67, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_body2 td {
-  height: 150px; }
-  /* line 69, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body2 td:first-of-type {
-    width: 50px;
-    border-top: none;
-    border-bottom: none;
-    border-left: none; }
-  /* line 75, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body2 td:nth-of-type(2) {
-    width: 250px;
-    background: red; }
-  /* line 79, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body2 td:nth-of-type(3) {
-    width: 100px; }
-  /* line 82, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body2 td:nth-of-type(4) {
-    width: 100px;
-    border-right: none; }
+/* line 39, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row2 td:first-of-type {
+  border-left: none; }
 
-/* line 90, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_body3 td {
-  height: 50px; }
-  /* line 92, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body3 td:first-of-type {
-    width: 50px;
-    border-bottom-color: #000;
-    border-left: none; }
-  /* line 97, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body3 td:nth-of-type(2) {
-    width: 125px;
-    background: #000; }
-  /* line 101, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body3 td:nth-of-type(3) {
-    width: 125px; }
-  /* line 104, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body3 td:nth-of-type(4) {
-    border-right: none; }
+/* line 42, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row2 td:nth-of-type(2) {
+  height: 250px;
+  width: 250px;
+  background: red; }
 
-/* line 111, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_body4 td {
-  height: 50px; }
-  /* line 113, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body4 td:first-of-type {
-    width: 50px;
-    border-left: none;
-    border-bottom-color: yellow;
-    background: yellow; }
-  /* line 119, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body4 td:nth-of-type(2) {
-    width: 125px;
-    background: #000; }
-  /* line 123, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body4 td:nth-of-type(3) {
-    width: 125px; }
-  /* line 126, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body4 td:nth-of-type(4) {
-    border-right: none;
-    border-bottom: 5px solid blue;
-    background: blue; }
+/* line 47, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row2 td:nth-of-type(3) {
+  border-right: none;
+  background: yellow; }
 
-/* line 135, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_body5 td {
-  height: 25px; }
-  /* line 137, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body5 td:first-child {
-    width: 50px;
-    border-left: none;
-    border-bottom-color: yellow;
-    background: yellow; }
-  /* line 143, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body5 td:nth-of-type(2) {
-    width: 125px;
-    border-bottom: none; }
-  /* line 147, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body5 td:nth-of-type(3) {
-    width: 125px;
-    background: #000; }
-  /* line 151, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_body5 td:nth-of-type(4) {
-    border-right: none;
-    background: blue; }
+/* line 55, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row3 td:first-of-type {
+  border-left: none; }
 
-/* line 159, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-.wrap_table_foot td {
-  height: 25px;
+/* line 58, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row3 td:nth-of-type(3) {
+  border-right: none; }
+
+/* line 65, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row4 td:first-of-type {
+  background: grey; }
+
+/* line 68, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row4 td:nth-of-type(2) {
+  background: grey; }
+
+/* line 71, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row4 td:nth-of-type(4) {
+  border-right: none; }
+
+/* line 78, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row5 td:first-of-type {
+  border-left: none;
+  border-bottom: none;
+  background: yellow; }
+
+/* line 83, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row5 td:nth-of-type(2) {
+  background: grey; }
+
+/* line 86, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row5 td:nth-of-type(3) {
+  background: grey; }
+
+/* line 89, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row5 td:nth-of-type(5) {
+  background: blue;
+  border-right: none; }
+
+/* line 97, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row6 td:first-of-type {
+  border-bottom: none;
   border-bottom: none; }
-  /* line 162, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_foot td:first-child {
-    width: 50px;
-    border-left: none;
-    background: yellow; }
-  /* line 167, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_foot td:nth-of-type(2) {
-    width: 125px;
-    border-top: none; }
-  /* line 171, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
-  .wrap_table_foot td:nth-of-type(3) {
-    border-right: none; }
+
+/* line 101, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row6 td:nth-of-type(2) {
+  background: grey; }
+
+/* line 108, C:/Users/junglemonk/GoIT/markup/home/lesson5.1/css/style.scss */
+.row7 td:first-of-type {
+  border-right: none;
+  border-bottom: none; }
 
 /*# sourceMappingURL=style.css.map */
