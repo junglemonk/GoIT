@@ -46,7 +46,7 @@ table {
 
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("../font/HelveticaNeue.eat");
+  src: url("../font/HelveticaNeue.eot");
   src: url("../font/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../font/HelveticaNeue.woff") format("woff"), url("../font/HelveticaNeue.ttf") format("truetype"); }
 
 /* variables */
