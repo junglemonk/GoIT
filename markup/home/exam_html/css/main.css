@@ -410,13 +410,13 @@ th {
 /* variables */
 /* variables */
 /* tags */
-/* line 38, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+/* line 47, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 45, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+/* line 54, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
 *,
 *:before,
 *:after {
@@ -424,9 +424,30 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+/* line 59, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+/* line 62, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+ul {
+  padding: 0;
+  list-style-type: none; }
+
+/* line 66, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+a {
+  text-decoration: none; }
+
 /* tags */
+/* snippets */
+/* line 71, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* snippets */
 /* header */
-/* line 53, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+/* line 78, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
 .header {
   width: 100%;
   height: 515px;
@@ -434,86 +455,711 @@ html {
   font-family: "League Gothic", Tahoma, sans-serif;
   background: url(../img/header_bg.png) no-repeat center center;
   background-size: cover; }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
-    /* line 53, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  @media only screen and (min-width: 319px) and (max-width: 479px) {
+    /* line 78, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
     .header {
-      max-width: 480px;
       background: url(../img/header_@handheld.png) no-repeat center center; } }
+  @media only screen and (min-width: 480px) {
+    /* line 78, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header {
+      height: 560px; } }
+  @media only screen and (min-width: 768px) {
+    /* line 78, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header {
+      height: 800px; } }
 
-/* line 66, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+/* line 95, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
 .header_logo {
   width: 150px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 10px auto;
   font-size: 48px;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   display: block; }
-  /* line 75, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  /* line 104, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
   .header_logo span {
     color: #745183;
     text-shadow: none; }
+  @media only screen and (min-width: 768px) {
+    /* line 95, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_logo {
+      float: left; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 95, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_logo {
+      margin-right: 100%;
+      margin-left: 5px; } }
 
-/* line 80, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
-.simple-wrap {
-  text-align: center; }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
-    /* line 80, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
-    .simple-wrap {
-      width: 100%; } }
+/* line 116, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.header_wrap {
+  text-align: center;
+  position: relative; }
+  @media only screen and (min-width: 768px) {
+    /* line 116, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_wrap {
+      width: 769px;
+      margin: 0 auto; } }
+  @media only screen and (min-width: 960px) {
+    /* line 116, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_wrap {
+      width: 960px; } }
 
-/* line 86, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+/* line 128, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
 .header_menu {
-  margin: 0 auto;
-  list-style-type: none; }
-  /* line 89, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
-  .header_menu li {
-    text-align: center; }
+  width: 250px;
+  font-size: 24px;
+  margin-left: -123px;
+  left: 50%;
+  z-index: 10;
+  position: absolute;
+  list-style-type: none;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    /* line 128, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_menu {
+      display: none; } }
 
-/* line 94, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+/* line 141, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.header_menu_main {
+  display: none; }
+  /* line 143, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .header_menu_main a {
+    margin-right: 50px;
+    padding: 0 5px;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase; }
+    /* line 149, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_menu_main a:hover {
+      border-bottom: 2px solid #edbfff; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 141, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_menu_main {
+      display: block;
+      float: left; } }
+  @media only screen and (min-width: 960px) {
+    /* line 141, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_menu_main {
+      display: block;
+      float: right;
+      line-height: 55px; } }
+
+/* line 163, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.menu_active {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.9); }
+
+/* line 166, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
 .header_li {
-  width: 40px;
   margin: 0 auto; }
-  /* line 97, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  /* line 168, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
   .header_li span {
     color: #fff;
-    line-height: 33.724px;
-    padding: 0 6px;
     border-bottom: 2px solid #edbfff;
     text-transform: uppercase; }
-  /* line 104, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  /* line 173, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
   .header_li ul {
+    width: 250px;
+    font-size: 24px;
     display: none;
-    list-style-type: none; }
-  /* line 108, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    list-style-type: none;
+    margin-top: -33px; }
+    /* line 179, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_li ul li {
+      height: 39px;
+      background: rgba(72, 59, 78, 0.7);
+      border-top: 1px solid #523f5a;
+      border-bottom: 1px solid #37293f; }
+      /* line 184, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .header_li ul li:last-of-type {
+        height: 38px;
+        border-bottom: none; }
+  /* line 190, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
   .header_li a {
+    padding: 0 2px;
+    line-height: 35px;
     color: #fff;
-    text-decoration: none;
+    display: block;
     text-transform: uppercase; }
-  /* line 114, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    /* line 196, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_li a:hover {
+      background: rgba(43, 34, 49, 0.9); }
+      /* line 198, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .header_li a:hover:after {
+        border-bottom: 2px solid #edbfff;
+        content: '';
+        display: block;
+        position: relative; }
+  /* line 207, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
   .header_li:hover ul {
+    border: 1px solid #182127;
+    border-radius: 5px;
     display: block; }
-
-/* line 122, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
-.header_dropdown {
-  margin: -31px 0 0 -101px; }
+  /* line 212, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .header_li:hover span {
+    visibility: hidden; }
 
 /* header */
-/* line 168, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
-.about {
-  width: 100%;
+/* line 218, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.header_slider {
+  margin-top: 150px;
+  position: relative; }
+  @media only screen and (min-width: 480px) {
+    /* line 218, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_slider {
+      height: 246px;
+      margin-top: 80px;
+      background: rgba(0, 0, 0, 0.2); } }
+  @media only screen and (min-width: 768px) {
+    /* line 218, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_slider {
+      height: 400px; } }
+
+/* line 230, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.header_slider_wrap {
+  width: 319px;
+  margin: 0 auto;
+  z-index: 5;
+  position: relative;
+  text-align: left;
+  display: table; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 230, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_slider_wrap {
+      width: 475px; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 230, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_slider_wrap {
+      width: 760px; } }
+  @media only screen and (min-width: 960px) {
+    /* line 230, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .header_slider_wrap {
+      width: 960px; } }
+  /* line 246, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .header_slider_wrap img {
+    display: none; }
+    @media only screen and (min-width: 480px) {
+      /* line 246, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .header_slider_wrap img {
+        display: block;
+        float: right;
+        margin: -15px 30px 0 0; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      /* line 246, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .header_slider_wrap img {
+        width: 180px;
+        height: 265px; } }
+
+/* line 259, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.slider_box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 65px; }
+  @media only screen and (min-width: 480px) {
+    /* line 259, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider_box {
+      padding-left: 35px; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 259, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider_box {
+      width: 280px; } }
+  @media only screen and (min-width: 960px) {
+    /* line 259, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider_box {
+      width: 515px; } }
+  /* line 272, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .slider_box h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #fefefe;
+    text-transform: capitalize;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); }
+  /* line 279, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .slider_box span {
+    font-size: 18px;
+    color: #edbfff;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); }
+  /* line 285, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .slider_box p {
+    display: none;
+    color: #fff;
+    font: 300 16px/24px "Open Sans", Arial, sans-serif; }
+    @media only screen and (min-width: 768px) {
+      /* line 285, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .slider_box p {
+        display: block;
+        height: 100px;
+        overflow: hidden; } }
+    @media only screen and (min-width: 960px) {
+      /* line 285, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .slider_box p {
+        height: 140px; } }
+
+/* line 300, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.slider_left {
+  left: 0;
+  background: url(../img/header_slider_leftarrow.png) no-repeat center center; }
+
+/* line 304, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.slider-arrow {
+  width: 30px;
+  height: 40px;
+  top: 11px;
+  position: absolute; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 304, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider-arrow {
+      height: 246px;
+      top: 0; } }
+  @media only screen and (min-width: 768px) {
+    /* line 304, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider-arrow {
+      height: 400px;
+      top: 0; } }
+
+/* line 318, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.slider_right {
+  right: 0;
+  background: url(../img/header_slider_rightarrow.png) no-repeat center center; }
+
+/* line 328, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.slider-drops {
+  width: 120px;
+  margin: 80px auto; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 328, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider-drops {
+      margin-top: 50px; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 328, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider-drops {
+      margin-top: 20px; } }
+  /* line 337, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .slider-drops li {
+    display: inline-block;
+    margin-left: 5px; }
+    /* line 340, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .slider-drops li:first-of-type {
+      margin-left: 15px; }
+  /* line 344, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .slider-drops a {
+    border-radius: 50%;
+    border: 10px solid rgba(102, 97, 108, 0.7);
+    display: inline-block; }
+
+/* header */
+/* row2 */
+/* line 357, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row2 {
   height: 600px;
+  font-family: "League Gothic", Tahoma, sans-serif;
+  border-top: 1px solid #34263b;
+  border-bottom: 1px solid #34263b;
   background: -webkit-linear-gradient(-82deg, #745183 9%, #634770 57%, #4a3653 78%, #37293e 91%);
   background: -moz-linear-gradient(-82deg, #745183 9%, #634770 57%, #4a3653 78%, #37293e 91%);
   background: -o-linear-gradient(-82deg, #745183 9%, #634770 57%, #4a3653 78%, #37293e 91%);
   background: -ms-linear-gradient(-82deg, #745183 9%, #634770 57%, #4a3653 78%, #37293e 91%);
   background: linear-gradient(172deg, #745183 9%, #634770 57%, #4a3653 78%, #37293e 91%); }
+  @media only screen and (min-width: 768px) {
+    /* line 357, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2 {
+      height: 350px; } }
 
-/* line 180, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
-.header_wrap ul {
-  padding: 0;
-  width: 250px;
-  font-size: 24px; }
+/* line 372, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row2_wrap {
+  width: 260px;
+  margin: 0 auto;
+  padding-top: 70px; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 372, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2_wrap {
+      width: 364px; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 372, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2_wrap {
+      width: 730px; } }
+  @media only screen and (min-width: 960px) {
+    /* line 372, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2_wrap {
+      width: 960px; } }
+
+/* line 388, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row2-box {
+  margin-bottom: 20px;
+  padding-left: 50px;
+  color: #fff; }
+  @media only screen and (min-width: 960px) {
+    /* line 388, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2-box {
+      width: 260px;
+      margin-right: 45px;
+      display: inline-block; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 388, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2-box {
+      width: 210px;
+      margin-right: 30px;
+      display: inline-block; } }
+  @media only screen and (min-width: 960px) {
+    /* line 388, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2-box {
+      width: 285px;
+      margin-right: 30px;
+      display: inline-block; } }
+  /* line 407, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row2-box a {
+    color: #fff;
+    text-transform: uppercase; }
+    /* line 410, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2-box a:hover {
+      text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8); }
+    /* line 413, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2-box a:first-of-type {
+      margin-left: -30px;
+      font-size: 24px;
+      font-weight: 400;
+      text-shadow: 1px 1px 0px #0f1518; }
+      /* line 418, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .row2-box a:first-of-type:before {
+        width: 30px;
+        height: 30px;
+        top: 10px;
+        left: -20px;
+        content: '';
+        position: relative;
+        display: inline-block;
+        background: url(../img/row2_key.png) no-repeat; }
+    /* line 429, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row2-box a:nth-of-type(2) {
+      font: 400 18px/24px "League Gothic", Tahoma, sans-serif;
+      float: right; }
+  /* line 434, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row2-box p {
+    height: 70px;
+    margin: 0 0 10px 0;
+    font: 300 16px/24px "Open Sans", Arial, sans-serif;
+    text-shadow: 1px 1px 0px #0f1518;
+    overflow: hidden; }
+    @media only screen and (min-width: 768px) {
+      /* line 434, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .row2-box p {
+        height: 140px; } }
+
+/* row3 */
+/* line 446, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row3 {
+  width: 100%;
+  height: 785px;
+  padding-top: 50px;
+  border-bottom: 1px solid #ccc;
+  background: #f9f9f9; }
+  @media only screen and (min-width: 768px) {
+    /* line 446, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3 {
+      height: 400px; } }
+
+/* line 456, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row3_wrap {
+  margin: 0 auto;
+  font-family: "League Gothic", Tahoma, sans-serif; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 456, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_wrap {
+      width: 700px; } }
+  @media only screen and (min-width: 960px) {
+    /* line 456, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_wrap {
+      width: 960px; } }
+
+/* line 467, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row3_post_wrap {
+  width: 260px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    /* line 467, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_post_wrap {
+      width: 320px;
+      float: left;
+      margin: 0; } }
+  @media only screen and (min-width: 960px) {
+    /* line 467, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_post_wrap {
+      width: 420px; } }
+
+/* line 479, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row3_post {
+  width: 260px;
+  left: 50%;
+  margin: 0 0 25px -130px;
+  padding: 25px 40px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  background: #fff; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 479, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_post {
+      width: 430px;
+      margin-left: -215px; } }
+  @media only screen and (min-width: 768px) {
+    /* line 479, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_post {
+      width: 430px;
+      margin-left: 25px;
+      float: left;
+      left: 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 479, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_post {
+      width: 320px; } }
+  /* line 500, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row3_post img {
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: -25px;
+    position: absolute; }
+  /* line 508, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row3_post a:nth-of-type(2) {
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #454545; }
+    /* line 513, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_post a:nth-of-type(2) span {
+      color: #edbfff;
+      display: block; }
+      @media only screen and (min-width: 480px) {
+        /* line 513, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+        .row3_post a:nth-of-type(2) span {
+          display: inline-block; } }
+  /* line 522, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row3_post p {
+    height: 161px;
+    overflow: hidden;
+    color: #454545;
+    font: 300 16px/24px "Open Sans", Arial, sans-serif; }
+
+/* line 529, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row3_drops {
+  width: 125px;
+  margin: 0 auto; }
+
+/* line 534, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row3_upd {
+  width: 283px;
+  margin: 50px auto; }
+  @media only screen and (min-width: 480px) {
+    /* line 534, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_upd {
+      width: 330px; } }
+  @media only screen and (min-width: 768px) {
+    /* line 534, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_upd {
+      display: inline-block;
+      margin: 0;
+      float: right; } }
+  @media only screen and (min-width: 960px) {
+    /* line 534, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_upd {
+      width: 450px; } }
+  /* line 548, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row3_upd a {
+    color: #454545; }
+    /* line 550, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row3_upd a:first-of-type {
+      font-size: 30px;
+      text-transform: uppercase; }
+
+/* line 557, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.upd_line {
+  margin-bottom: 0;
+  font-family: "Open Sans", Arial, sans-serif; }
+  /* line 566, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .upd_line li {
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 65px;
+    margin-bottom: 20px;
+    position: relative; }
+    @media only screen and (min-width: 768px) {
+      /* line 566, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .upd_line li {
+        overflow: visible;
+        white-space: normal; } }
+
+/* line 579, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.upd_line_link768 {
+  display: none; }
+  @media only screen and (min-width: 480px) {
+    /* line 579, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .upd_line_link768 {
+      display: inline; } }
+
+/* line 585, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.upd_line_txt {
+  font-weight: 300;
+  display: block;
+  float: left; }
+
+/* line 590, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.upd_line_link {
+  display: inline-block; }
+  /* line 592, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .upd_line_link:first-of-type {
+    left: 0;
+    position: absolute; }
+  /* line 596, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .upd_line_link:nth-of-type(2) {
+    font-weight: 700; }
+
+/* line 600, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.upd_line_link960 {
+  display: none; }
+  @media only screen and (min-width: 960px) {
+    /* line 600, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .upd_line_link960 {
+      display: inline-block;
+      float: left;
+      margin-left: 5px; } }
+
+/* line 609, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.upd_more {
+  float: right;
+  text-transform: uppercase; }
+
+/* row4 companies */
+/* line 614, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row4_companies {
+  width: 100%;
+  height: 420px;
+  background: #f9f9f9; }
+
+/* row5 news */
+/* line 620, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row5 {
+  height: 670px;
+  padding-top: 75px;
+  background: #ececec;
+  display: none; }
+  @media only screen and (min-width: 480px) {
+    /* line 620, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row5 {
+      display: block; } }
+  @media only screen and (min-width: 768px) {
+    /* line 620, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row5 {
+      height: 400px; } }
+
+/* line 633, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row5_wrap {
+  width: 460px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 633, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row5_wrap {
+      width: 750px; } }
+  @media only screen and (min-width: 960px) {
+    /* line 633, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row5_wrap {
+      width: 960px; } }
+
+/* line 644, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.row5-box {
+  margin-bottom: 50px; }
+  @media only screen and (min-width: 768px) {
+    /* line 644, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row5-box {
+      width: 225px;
+      display: inline-block; } }
+  @media only screen and (min-width: 960px) {
+    /* line 644, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .row5-box {
+      width: 290px; } }
+  /* line 653, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row5-box a {
+    font: 400 24px/24px "League Gothic", Tahoma, sans-serif;
+    color: #454444;
+    text-transform: uppercase; }
+  /* line 658, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row5-box p {
+    height: 95px;
+    overflow: hidden;
+    color: #454545;
+    font: 300 16px/24px "Open Sans", Arial, sans-serif; }
+    @media only screen and (min-width: 768px) {
+      /* line 658, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+      .row5-box p {
+        height: 170px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 668, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row5_content2 {
+    margin-left: 30px; } }
+
+@media only screen and (min-width: 960px) {
+  /* line 668, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row5_content2 {
+    margin-left: 43px; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 675, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .row5_content3 {
+    float: right; } }
+
+/* footer */
+/* line 681, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.footer {
+  height: 200px;
+  padding: 50px 20px 0 20px;
+  background: url(../img/footer_bg.png) no-repeat center center; }
+
+/* line 686, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.footer_wrap {
+  text-align: center;
+  color: #fff;
+  font: 300 12px "Open Sans", Arial, sans-serif; }
+  /* line 690, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .footer_wrap a {
+    color: #fff;
+    font: 400 20px "League Gothic", Tahoma, sans-serif;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4); }
+  @media only screen and (min-width: 480px) {
+    /* line 686, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .footer_wrap {
+      width: 450px;
+      margin: 0 auto; } }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 686, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .footer_wrap {
+      width: 768px; } }
+  @media only screen and (min-width: 960px) {
+    /* line 686, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .footer_wrap {
+      width: 960px; } }
+
+/* line 706, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+.footer_menu {
+  margin-bottom: 40px;
+  display: none; }
+  /* line 709, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .footer_menu a {
+    margin-right: 15px;
+    text-transform: uppercase; }
+  @media only screen and (min-width: 768px) {
+    /* line 706, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .footer_menu {
+      display: block; } }
+  @media only screen and (min-width: 768px) {
+    /* line 706, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+    .footer_menu {
+      float: left; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 720, C:/Users/junglemonk/GoIT/markup/home/exam_html/css/main.scss */
+  .footer_copyright {
+    float: right; } }
 
 /*# sourceMappingURL=main.css.map */

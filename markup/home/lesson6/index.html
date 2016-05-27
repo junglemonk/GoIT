@@ -10,12 +10,12 @@
         <header class="wrap_header clearfix">
             <span class="header_phone">(044)123-45-67 (044)567-89-10</span>
             <form class="header_form clearfix" action="#">
-                <button class="header_form_aimg" type="submit">
+                <a class="header_form_aimg" type="submit">
                     <img class="header_form__logimg" src="img/header_snowball.png" alt="login_btn">
-                </button>
-                <input class="header_form_login" type="text" required placeholder="Login">
-                <input class="header_form_pass" type="password" required placeholder="Password">
-                <button class="header_form_entxt" type="submit">вход</button>
+                </a>
+                <input class="header_form_login form-inpt" type="text" required placeholder="Login">
+                <input class="header_form_pass form-inpt" type="password" required placeholder="Password">
+                <input class="header_form_entxt" type="submit" value="вход">
                 <a class="header_form_reg" href="#">регистрация</a>
                 <a class="header_form_forget" href="#">забили пароль?</a>
             </form>
@@ -37,7 +37,7 @@
             <a class="wrapper_nav_basket" href="#" target="_blank">товаров:<span>0</span></a>
             <span class="wrapper__basket_cash">на сумму: <span>0,00 грн</span></span>
         </nav>
-        <main class="wrapper_container clearfix">
+        <div class="wrapper_container clearfix">
             <aside class="wrapper_container_catalog">
                 <h1 class="wrapper__catalog">Каталог Продукции:</h1>
                 <h2 class="wrapper__catalog_tyre">Шини</h2>
@@ -62,8 +62,8 @@
                     <li><a href="#">Наименование 4</a></li>
                 </ul>
             </aside>
-            <div class="wrapper_container_item">
-                <ul class="wrapper__item_list">
+            <main class="wrapper_container_item">
+                <ul class="wrapper__item_list clearfix">
                     <li><span class="wrapper__list_price">90.00 uah</span>
                          <a href="#" target="_blank">Nokian <span>Hakkapeliitta</span>
                              <img src="img/main_item_tyre.png" alt="калісооо">
@@ -110,15 +110,15 @@
                          </a>
                     </li>
                 </ul>
-            </div>
+            </main>
             <aside class="wrapper_container_brand">
                 <h1 class="wrapper__brand">Бренди:</h1>
                 <h2 class="wrapper__catalog_tyre">Шини</h2>
                 <form class="wrapper__brand_form" action="#">
                    <ul>
-                    <li><input id="brand1" type="checkbox"><label for="brand1"><span>Бренд 1</span></label></li>
-                    <li><input id="brand2" type="checkbox"><label for="brand2"><span>Бренд 2</span></label></li>
-                    <li><input id="brand3" type="checkbox"><label for="brand3"><span>Бренд 3</span></label></li>
+                    <li><input id="brand1" type="checkbox"><label for="brand1">Бренд 1</label></li>
+                    <li><input id="brand2" type="checkbox"><label for="brand2">Бренд 2</label></li>
+                    <li><input id="brand3" type="checkbox"><label for="brand3">Бренд 3</label></li>
                    </ul>
                 </form>
                 <h2 class="wrapper__catalog_tyre">Диски</h2>
@@ -128,10 +128,10 @@
                     <li><input id="brand2_d" type="checkbox"><label for="brand2_d"><span>Бренд 2</span></label></li>
                     <li><input id="brand3_d" type="checkbox"><label for="brand3_d"><span>Бренд 3</span></label></li>
                    </ul>
-                   <button type="submit" class="wrapper__brand_btn">Вибрать</button>
+                   <input type="submit" class="wrapper__brand_btn" value="Вибрать">
                 </form>
             </aside>
-        </main>
+        </div>
         <ul class="wrapper_companies">
                 <li>
                     <a href="#" target="_blank">

@@ -73,22 +73,9 @@ a {
     background: -ms-linear-gradient(-82deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
     background: linear-gradient(172deg, #206988 9%, #114165 57%, #0d3458 78%, #0c3256 91%);
     button {   
-        background: transparent;
-        outline: none;
-        border: none;
-        cursor: pointer;
-        font-size: 12px;
+        
     }
-    input {
-        width: 113px;
-        height: 16px;
-        margin: 3px 0 4px 0;
-        float: left;
-        color: #53656c;
-        &:focus {
-        outline: 1px solid orange;
-    }
-    }
+    
     input:first-of-type {
         margin-right: 8px;
     }
@@ -110,8 +97,13 @@ a {
     }
 }
 .header_form_aimg {
+    margin: 3px 5px;
+    font-size: 12px;
     float: left;
-    margin: 3px 0 3px 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
     img {
         width: 14px;
         height: 18px;
@@ -119,8 +111,13 @@ a {
 }
 .header_form_entxt {
     margin: 7px 0 6px 0;
+    font-size: 12px;
     color: #fff;
     float: left;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 .header_form_reg {
     margin: 9px 0 6px 0;
@@ -142,29 +139,23 @@ a {
     border-radius: 25px;
     border: 1px solid #bfbfbf;
     float: right;
+    a {
+        display: inline-block;
+        width: 33.33%;
+        height: 100%;
+        float: left;
+    }
 }
 
 .header_nav_home {
-    width: 12px;
-    height: 11px;
-    margin: 3px 8px 0 9px;
-    float: left;
     background: url(../img/home.png) no-repeat center center;
 }
 
 .header_nav_busket {
-    width: 14px;
-    height: 10px;
-    margin: 3px 8px 0 0;
-    float: left;
     background: url(../img/header_sitemap.png) no-repeat center center;
 }
 
 .header_nav_message {
-    width: 12px;
-    height: 9px;
-    margin: 4px 0 0 0;
-    float: left;
     background: url(../img/header_nav_message.png) no-repeat center center;
 }
 /* header_form */
@@ -336,7 +327,7 @@ a {
         height: 12px;
         top: 50%;
         left: 3px;
-        margin-top: -10px;
+        margin-top: -11px;
         border: 5px solid #114165;
         border-radius: 50%;
         position: absolute;
@@ -356,7 +347,7 @@ a {
         height: 12px;
         top: 50%;
         left: 3px;
-        margin-top: -10px;
+        margin-top: -11px;
         border: 5px solid #114165;
         border-radius: 50%;
         position: absolute;
@@ -379,11 +370,10 @@ a {
     width: 518px;
     margin: 0 auto;
     li {
+        width: 33.33%;
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 2.7%;
-        padding-right: 2.7%;
-        display: inline-block;
+        float: left;
         text-align: center;
         position: relative;
     }
@@ -464,19 +454,14 @@ a {
         label {
             margin-left: 10px;
             vertical-align: middle;
-            
-        }
-        span {
-            min-width: 49px;
-            display: inline-block;
-            vertical-align: middle;
-            line-height: 25px;
-            margin-top: -10px;
+            position: relative;
+            bottom: 4px;
         }
 }
 
 .wrapper__brand_btn {
-    margin-top: 25px;
+    position: relative;
+    top: 25px;
     padding: 0 13px;
     border-radius: 20px;
     line-height: 25px;
@@ -514,11 +499,7 @@ a {
 }
 
 .wrapper_footer_nav {
-    width: 500px;
-    margin: 0 auto;
-    ul {
-        text-align: center;
-    }
+    text-align: center;
     li {
         padding: 0 10px;
         display: inline-block;
@@ -542,3 +523,13 @@ a {
     text-align: center;
 }
 /* footer */
+.form-inpt {
+    width: 113px;
+    height: 16px;
+    margin: 3px 0 4px 0;
+    float: left;
+    color: #53656c;
+        &:focus {
+        outline: 1px solid orange;
+    }
+}

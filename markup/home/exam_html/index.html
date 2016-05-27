@@ -8,13 +8,21 @@
 </head>
 <body> 
     <header class="header">
-        <div class="header_wrap simple-wrap">
+        <div class="header_wrap simple-wrap clearfix">
             <a class="header_logo" href="#">Pingbull<span>er</span></a>
+            <nav class="header_menu_main">
+               <a href="#">Homme</a>
+               <a href="#">Aboout</a>
+               <a href="#">Bloog</a>
+               <a href="#">Prooducts</a>
+               <a href="#">Loorem Ipsum</a>
+               <a href="#">Dooloor Sit Amen</a>
+           </nav>
             <ul class="header_menu">
-                <li class="header_li">
+                <li class="header_li"><!--try to use :first child for subs class-->
                     <span>Home</span>
-                    <ul class="header_dropdown">
-                        <li><a href="#">Home</a></li>
+                    <ul>
+                        <li><a class="menu_active" href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Products</a></li>
@@ -22,11 +30,110 @@
                         <li><a href="#">Dolor Sit Amet</a></li>
                     </ul>
                 </li>
-                
             </ul>
         </div>
+        <div class="header_slider">
+               <a class="slider_left slider-arrow" href="#"></a>
+                <a class="slider_right slider-arrow" href="#"></a>
+                <div class="header_slider_wrap clearfix">
+                    <div class="slider_box">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <span>It Will Make all of your dreams cum</span>
+                        <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.</p>
+                    </div>    
+                    <img src="img/header_slider_phone.png" alt="iPhone">
+                </div>
+        </div>
+        <ul class="slider_drops slider-drops"><!-- not centered with menu aaded margin-left-->
+                <li><a href="#"></a></li>
+                <li><a class="slider-drops-active" href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+        </ul> 
     </header>
-    <div class="about">
+    <div class="row2">
+        <div class="row2_wrap simple-wrap clearfix">
+            <div class="row2-box clearfix">
+                <a href="#">About our company</a>
+                <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="row2-box clearfix">
+                <a href="#">About our company</a>
+                <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="row2-box clearfix">
+                <a href="#">About our company</a>
+                <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
     </div>
+    <div class="row3">
+        <div class="row3_wrap simple-wrap">
+            <div class="row3_post_wrap">
+                <div class="row3_post">
+                <a href="#"><img src="img/row3_avatar.png" alt="avatar"></a>
+                <a href="#">Pingbuller <span>Starts Here</span></a>
+                <p>&#8220;Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.&#8221;
+ Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+            </div>
+                <ul class="row3_drops slider-drops"><!-- not centered with menu aaded margin-left-->
+                    <li><a href="#"></a></li>
+                    <li><a class="slider-drops-active" href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="row3_upd">
+                <a href="#" target="_blank">Recent Updates</a>
+                <ul class="upd_line clearfix">
+                    <li><a class="upd_line_link" href="#"><img src="img/row3_upd1.png" alt="avatar"></a><a href="#">Nunc turpis neque <span class="upd_line_link768">feugiat eget</span> <span class="upd_line_txt">Posted by Admin on March 13 2012</span></a><a class="upd_line_link960" href="#">in Recent News</a></li>
+                    <li><a class="upd_line_link" href="#"><img src="img/row3_upd2.png" alt="avatar"></a><a href="#">Nunc turpis neque <span class="upd_line_link768">feugiat eget</span> <span class="upd_line_txt">Posted by Admin on March 13 2012</span></a><a class="upd_line_link960" href="#">in Categoty</a></li>
+                    <li><a class="upd_line_link" href="#"><img src="img/row3_upd3.png" alt="avatar"></a><a href="#">Nunc turpis neque <span class="upd_line_link768">feugiat eget</span> <span class="upd_line_txt">Posted by Admin on March 13 2012</span></a><a class="upd_line_link960" href="#">in Blog Updates</a></li>
+                </ul>
+                <a class="upd_more" href="#">More Blog Posts</a>
+            </div>
+        </div>     
+    </div>
+    <div class="row4_companies">
+        <div class="row4_wrap"></div>
+    </div>
+    <div class="row5">
+        <div class="row5_wrap">
+            <div class="row5_content1 row5-box">
+                <a href="#">News Caregories</a>
+                <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.
+ Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+            </div>
+            <div class="row5_content2 row5-box">
+                <a href="#">News Caregories</a>
+                <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.
+ Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+            </div>
+            <div class="row5_content3 row5-box">
+                <a href="#">News Caregories</a>
+                <p>Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.
+ Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
+            </div>
+            
+        </div>
+    </div>
+    <footer class="footer clearfix">
+        <div class="footer_wrap">
+           <nav class="footer_menu">
+               <a href="#">Home</a>
+               <a href="#">About</a>
+               <a href="#">Blog</a>
+               <a href="#">Products</a>
+               <a href="#">Lorem Ipsum</a>
+               <a href="#">Dolor Sit Amen</a>
+           </nav>
+           <div class="footer_copyright">
+               <span>Designed by </span><a href="#">Pingbull AS</a>
+           </div>
+        </div>
+    </footer>
 </body>
 </html>
